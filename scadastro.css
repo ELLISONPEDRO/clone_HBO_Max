@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*======================== CABEÇALHO ================================*/
+
+
+header{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, #1B061F,#1B0455,#230A35);
+}
+.logoheader{
+    height: 33px;
+    width: 143px;
+}
+.botaoheader {
+    position: absolute;
+    right: 32px;
+    font-size: 12px;
+    top: 3%;
+    text-decoration: none;
+    color: #BAC7E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* =================== CONTEUDO PRINCIPAL =====================*/
+
+#content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 147vh;
+    
+}
+
+#content{
+    background-image: url(assets/bg-gradientHBOMax.jpg);
+    background-size: cover;
+}
+
+.multitelas{
+    background-image: linear-gradient(90deg, #241245, #231152, #1F1141);
+    border-radius: 7px;
+    color: white;
+    width: 650px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 17px;
+}
+
+
+.titulopasso{
+    font-size: 16px;
+    text-align: center;
+    top: 125px;
+    color: white;
+    position: absolute;
+}
+.titulocriar{
+    text-align: center;
+    font-size: 30px;
+    top: 175px;
+    color: white;
+    position: absolute;
+}
+.textotenha{
+    text-align: center;
+    font-size: 13px;
+    top: 236px;
+    color: white;
+    position: absolute;
+}
+
+form{
+    position: absolute;
+    top: 29%;
+}
+
+
+#content .inputBox{
+    position: relative;
+}
+
+.emlinha{
+    width: 100%;
+    display: flex;
+    
+}
+
+#content .inputUser{
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 55px;
+    background: none;
+    border: none;
+    border-bottom: 1.8px solid #999999;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    letter-spacing: 1px;
+}
+
+#content .inputUser2{
+    margin: 0 20px;
+    margin-bottom: 55px;
+    background: none;
+    border: none;
+    border-bottom: 1.8px solid #999999;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 650px;
+    letter-spacing: 1px;
+}
+#content .labelInput{
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #C8C8B6;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    pointer-events: none;
+    transition: .3s;
+}
+#content .inputUser:focus ~ .labelInput,
+#content .inputUser:valid ~ .labelInput{
+    top: -24px;
+    left: 2px;
+    font-size: 14px;
+    color: #999999;
+}
+
+#content .inputUser2:focus ~ .labelInput,
+#content .inputUser2:valid ~ .labelInput{
+    top: -24px;
+    left: 2px;
+    font-size: 14px;
+    color: #999999;
+}
+
+
+.psenha{
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 3%;
+    top: 35%;
+}
+.termos{
+    position: absolute;
+    background-image:linear-gradient(90deg, #2f1b44b5, #603781e0);
+    width: 650px;
+    height: 230px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-size: 11px;
+    position: absolute;
+    bottom: -100%;
+    max-width: 650px;
+    color: white;
+    line-height: 1.7;
+    left: 3%;
+}
+.termos2{
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    bottom: -120%;
+    left: 3%;
+}
+
+.spancolor{
+    color: #9DC7F6;
+}
+
+.botaocriar{
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 0.1px solid #7B2ABF;
+    background-color: #7B2ABF;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    transition: 0.35s;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.botaocriar:hover{
+    background-color: #9A35EF;
+}
+
+
+/* ==================== RODAPE =======================*/
+
+footer{
+    position: absolute;
+    bottom: -53vh;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, #070428,#0C0530,#070428);
+    
+}
+
+.linkrodape{
+    color:#9974E4;
+    padding: 14px 10px;
+    font-size: 15px;
+}
+
+a{
+    font-size: 13.5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globo{
+    color:#9974E4;
+    font-size: 12px;
+}

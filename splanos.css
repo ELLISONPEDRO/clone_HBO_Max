@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*======================== CABEÇALHO ================================*/
+
+
+header{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, #1B061F,#1B0455,#230A35);
+}
+.logoheader{
+    height: 33px;
+    width: 143px;
+}
+.botaoheader {
+    position: absolute;
+    right: 32px;
+    font-size: 12px;
+    top: 3%;
+    text-decoration: none;
+    color: #BAC7E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* =================== CONTEUDO PRINCIPAL =====================*/
+
+#content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ /*------- height: 191vh; -------- */
+    height: 114.5vh;
+    
+}
+
+#content{
+    background-image: url(assets/bg-gradientHBOMax.jpg);
+    background-size: cover;
+}
+
+.titulopasso{
+    font-size: 16px;
+    text-align: center;
+    top: 37px;
+    color: white;
+    position: absolute;
+}
+
+.tituloescolha{
+    text-align: center;
+    font-size: 30px;
+    top: 88px;
+    color: white;
+    position: absolute;
+}
+
+.textoaproveite{
+    text-align: center;
+    font-size: 13.5px;
+    top: 150px;
+    color: white;
+    position: absolute;
+}
+
+/*----- cards ------*/
+
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 8px;
+    width: 310px;
+    height: 480px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.036) );
+    margin: 15px;
+    padding: 50px 30px;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+/*
+.submit-button{
+    width: 250px;
+    height: 52px;
+    text-align: center;
+    border-radius: 30px;
+    border: 0.1px solid #7B2ABF;
+    background-color: #7B2ABF;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    transition: 0.35s;
+    margin-top: 70px;
+}
+.submit-button:hover {
+    background-color: #9A35EF;
+}
+*/
+
+
+.botaoplano{
+    width: 250px;
+    height: 52px;
+    text-align: center;
+    border-radius: 30px;
+    border: 0.1px solid #7B2ABF;
+    background-color: #7B2ABF;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    transition: 0.35s;
+    margin-top: 70px;
+}
+
+.botaoplano:hover{
+    background-color: #9A35EF;
+}
+
+.pmeses{
+font-size: 17px;
+}
+
+.peconomize{
+    font-size: 15px;
+    position: absolute;
+    color: #9DC7F6;
+}
+
+ul{
+margin-top: 45px;
+}
+
+li{
+    font-size: 14.5px;
+    list-style: none;
+    color: white;
+    margin-top: 4px;
+    color: #C8C3BD;
+
+}
+hr{
+    border: none;
+    border-top: 1px solid white;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    margin: 40px 0;
+}
+.dispositivos{
+    margin: -36px 10px;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-size: 22px;
+    color: white;
+}
+
+/*----- cards ------*/
+
+
+
+
+
+
+
+
+/* ==================== RODAPE =======================*/
+
+footer{
+    position: absolute;
+    /*======= bottom: -100vh; ========= */
+    bottom: -22.5vh;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, #070428,#0C0530,#070428);
+    
+}
+
+.linkrodape{
+    color:#9974E4;
+    padding: 14px 10px;
+    font-size: 15px;
+}
+
+a{
+    font-size: 13.5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globo{
+    color:#9974E4;
+    font-size: 12px;
+}
